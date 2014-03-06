@@ -1,0 +1,16 @@
+<table class="table table-striped" style="width: 250px">
+    <thead>
+    <tr>
+        <td>name</td>
+        <td>description</td>
+        <td><a href="#/new">Add</a></td>
+    </tr>
+    </thead>
+    <tbody ng-repeat="person in persons">
+    <tr>
+        <td>{{person.name}}</td>
+        <td>{{person.title}}</td>
+        <td><a href="#/edit">edit</a></td>
+    </tr>
+    </tbody>
+</table>

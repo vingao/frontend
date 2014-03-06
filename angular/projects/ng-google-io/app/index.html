@@ -1,0 +1,20 @@
+<!doctype html>
+<html ng-app='projectApp'>
+  <head>
+      <link rel="stylesheet" href="styles/bootstrap.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero-unit" ng-view>
+      </div>
+    </div>
+
+    <!-- build:js scripts/main.js -->
+    <script src="components/jquery/jquery.js"></script>
+    <script src='scripts/angular.min.js'></script>
+    <script src='scripts/firebase.js'></script>
+    <script src='scripts/angularFire.js'></script>
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
